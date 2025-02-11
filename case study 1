@@ -1,0 +1,30 @@
+#  CASE STUDY 1 : grocery store calculator
+customer_name=input("")
+name1 =input("item 1:")
+name2=input("item 2:")
+name3=input("item 3:")
+price1 =int(input("item price :"))
+price2 =int(input("item price :"))
+price3 =int(input("item price :"))
+quantity1=int(input("item quantity :"))
+quantity2=int(input("item quantity :"))
+quantity3=int(input("item quantity :"))
+total_price=(price1*quantity1)+(price2*quantity2)+(price3*quantity3)
+print("grand total",(total_price))
+if total_price>4500:
+   discount=total_price-(0.4*total_price)
+   print("you got 40% discount",(discount))
+elif total_price>500:
+  discount=total_price-(0.1*total_price)
+  print("you got 10% discount",(discount))
+else:
+       print("Thankyou for shopping")
+
+
+
+
+
+
+
+
+
